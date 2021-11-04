@@ -222,7 +222,8 @@ container2.onmouseover=()=>{
 }
 container2.onclick=()=>{
     var debounce=document.getElementById("debounce");
-    debounce.style.display="none"
+    debounce.style.display="none";
+    
 }
 // console.log(hoverdivs)
 
