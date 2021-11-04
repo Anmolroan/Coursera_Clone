@@ -13,6 +13,7 @@
 .first-div{
     margin: auto;
     text-align: center;
+   position: static;
 }
 .poster{
     width: 100%;
@@ -164,6 +165,7 @@ section::-webkit-scrollbar{
     border: none;
     border-radius: 5px;
     /* font-size: 0%; */
+    
 }
 .btnblue{
     background-color: #0056D2;
@@ -174,8 +176,10 @@ section::-webkit-scrollbar{
 }
 
 .colorblue{
+   
     color: #00419E;
     background-color: #f9fbff;
+   
 }
 
 .borderblue{
