@@ -200,6 +200,22 @@ let elements=data.elements
   }
 }
 
+<<<<<<< Updated upstream
 
+=======
+container2.onmouseover=()=>{
+    container2.style.opacity="1";
+    container2.style.backgroundColor="white";
+    infodiv.style.display="none"
+  hovermenu.style.display="none";
+  explore.setAttribute("id","explore");
+ 
+}
+container2.onclick=()=>{
+    var debounce=document.getElementById("debounce");
+    debounce.style.display="none";
+    // checking
+}
+>>>>>>> Stashed changes
 // console.log(hoverdivs)
 
